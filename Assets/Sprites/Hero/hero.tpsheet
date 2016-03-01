@@ -1,0 +1,23 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:e756600ed463200b1b378d9b308cbd22:d34a33da90960caef5a2ea751ce14532:8d04f451011f959484e85f5f5f749974$
+#
+:format=40000
+:texture=hero.png
+:size=128x256
+
+hit;43;58;40;63;0.5;0.5
+idle-1;1;63;40;57;0.5;0.5
+idle-2;1;4;40;57;0.5;0.5
+jump_fall;43;2;40;54;0.5;0.5185185185185186
+jump_up;85;65;37;56;0.4864864864864865;0.5
+run-1;85;190;40;65;0.5;0.5076923076923077
+run-2;43;123;40;64;0.5;0.515625
+run-3;85;123;40;65;0.5;0.5076923076923077
+run-4;1;189;40;66;0.5;0.5
+run-5;43;189;40;66;0.5;0.5
+run-6;1;122;40;65;0.5;0.5076923076923077

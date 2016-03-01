@@ -1,0 +1,15 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:52bc89775ec7c19c468123ba1b4ca332:3f7dfdf3a405710792c3f2d83ed2775a:da728ae366c88c68544a6f2991063a77$
+#
+:format=40000
+:texture=enemy.png
+:size=128x64
+
+enemy-hit;85;21;40;42;0.5;0.5
+idle-1;1;19;40;44;0.5;0.5
+idle-2;43;20;40;43;0.5;0.5116279069767442

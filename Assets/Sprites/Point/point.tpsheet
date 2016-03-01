@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:2f7845ab0bbd62a463bf0f8e223f9c14:8784da902a156dd800c75e0b99a9e022:155b6d9300d377a7d3594bac05396717$
+#
+:format=40000
+:texture=point.png
+:size=128x256
+
+frame-1;1;214;40;41;0.5;0.5
+frame-10;43;214;40;41;0.5;0.5
+frame-2;43;214;40;41;0.5;0.5
+frame-3;85;214;40;41;0.5;0.5
+frame-4;1;171;40;41;0.5;0.5
+frame-5;43;171;40;41;0.5;0.5
+frame-6;85;171;40;41;0.5;0.5
+frame-7;1;128;40;41;0.5;0.5
+frame-8;43;128;40;41;0.5;0.5
+frame-9;85;128;40;41;0.5;0.5
