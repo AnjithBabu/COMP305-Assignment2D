@@ -4,6 +4,7 @@
  * Last	Modifiedby: Anjith Babu
  * Date	lastModified : Feb 29, 2016	
  * Program	description: Player controller is used to controll player behaviour	
+ **
  */
 
 using UnityEngine;
@@ -38,6 +39,9 @@ public class PlayerController : MonoBehaviour {
     private AudioSource[] audioSources;
     private AudioSource hitSound;
     private AudioSource jumpSound;
+    private bool levelTwoFlag = true;
+    private bool levelThreeFlag = true;
+
 
     
     //public instance variables
@@ -183,12 +187,18 @@ public class PlayerController : MonoBehaviour {
             this.LevelLabel.text = "Level: 2";
             this.playerX = 752f;
             this.playerY = 204f;
+            this.gameController.ScoreValue = (this.levelTwoFlag) ? this.gameController.ScoreValue + 200 :
+                this.gameController.ScoreValue;
+            levelTwoFlag = false;
         }
         else if (this.transform.position.x >= 1601)
         {
             this.LevelLabel.text = "Level: 3";
             this.playerX = 1706f;
             this.playerY = 9f;
+            this.gameController.ScoreValue = (this.levelThreeFlag) ? this.gameController.ScoreValue + 200 :
+                this.gameController.ScoreValue;
+            levelThreeFlag = false;
         }
         else
         {
